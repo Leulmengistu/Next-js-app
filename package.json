@@ -1,0 +1,26 @@
+{
+  "name": "tutors_testing_webapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "autoprefixer": "10.4.14",
+    "dotenv": "^16.0.3",
+    "eslint-config-next": "13.3.0",
+    "isomorphic-unfetch": "^4.0.2",
+    "mongoose": "^7.0.3",
+    "next": "13.3.0",
+    "nodemon": "^2.0.22",
+    "postcss": "8.4.22",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
+    "tailwindcss": "3.3.1"
+  }
+}
