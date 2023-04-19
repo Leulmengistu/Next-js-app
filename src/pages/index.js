@@ -30,7 +30,7 @@ export default function Index({notes}) {
                   <Button primary>View</Button>
                 </Link>
                 <Link href={`/${note._id}/edit`}>
-                  <Button primary>Edit</Button>
+                  <Button color='green'>Edit</Button>
                 </Link>
               </Card.Content>
             </Card>

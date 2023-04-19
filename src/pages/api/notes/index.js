@@ -22,7 +22,6 @@ export default async (req, res) => {
             break;
         case 'POST':
             try {
-                console.log("I did my job bro : ", req.body)
                 const note = await Note.create(req.body);
                 
                 res.status(201).json({ success: true, data: note })
